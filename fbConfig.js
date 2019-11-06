@@ -1,4 +1,3 @@
-// Your web app's Firebase configuration
 var firebaseConfig = {
   apiKey: "AIzaSyDtBn6b3xpua9QosumckJ_DJjXZe3CuxbA",
   authDomain: "socialpostah.firebaseapp.com",

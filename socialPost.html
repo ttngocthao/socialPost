@@ -1,20 +1,21 @@
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyDtBn6b3xpua9QosumckJ_DJjXZe3CuxbA",
-    authDomain: "socialpostah.firebaseapp.com",
-    databaseURL: "https://socialpostah.firebaseio.com",
-    projectId: "socialpostah",
-    storageBucket: "socialpostah.appspot.com",
-    messagingSenderId: "617890860551",
-    appId: "1:617890860551:web:c66c6917cdb7a4e18424a2"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-</script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <progress value="0" max="100" id="uploader">0%</progress>
+    <input type="file" value="upload" id="fileButton" />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebase/7.2.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebase/7.2.3/firebase-firestore.js"></script>
+    <script src="fbConfig.js"></script>
+    <script src="script.js"></script>
+    <script src="https://www.gstatic.com/firebase/init.js"></script>
+  </body>
+</html>

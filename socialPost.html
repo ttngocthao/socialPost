@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <!-- <script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js"></script>
+    <link href="https://cdn.syncfusion.com/ej2/material.css" rel="stylesheet" /> -->
   </head>
   <body>
     <form>
@@ -13,10 +15,14 @@
       <div id="preview-img" style="max-width: 200px;"></div>
       <input type="text" id="title-input" placeholder="Post's Title" />
       <input type="text" id="link-input" placeholder="Post's link" />
-      <input type="text" id="endDate-input" placeholder="Post's End Date" />
+      <input id="endDate-input" type="text" placeholder="End Date mm/dd/yy" />
       <div id="submit-post-btn">submit</div>
     </form>
 
+    <!-- <script>
+      var datepicker = new ej.calendars.DatePicker({ width: "255px" });
+      datepicker.appendTo("#endDate-input");
+    </script> -->
     <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-storage.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>

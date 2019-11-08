@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <!-- <script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js"></script>
-    <link href="https://cdn.syncfusion.com/ej2/material.css" rel="stylesheet" /> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script src="pickadate.js-3.6.2/lib/picker.js"></script>
+    <script src="pickadate.js-3.6.2/lib/picker.date.js"></script>
+    <link rel="stylesheet" href="pickadate.js-3.6.2/lib/themes/classic.css" />
+    <link
+      rel="stylesheet"
+      href="pickadate.js-3.6.2/lib/themes/classic.date.css"
+    />
   </head>
   <body>
     <form>
@@ -19,15 +26,14 @@
       <div id="submit-post-btn">submit</div>
     </form>
 
-    <!-- <script>
-      var datepicker = new ej.calendars.DatePicker({ width: "255px" });
-      datepicker.appendTo("#endDate-input");
-    </script> -->
+    <script>
+      $("#endDate-input").pickadate();
+    </script>
     <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-storage.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
-    <!-- <script src="https://www.gstatic.com/firebasejs/init.js"></script> -->
+
     <script src="fbConfig.js"></script>
     <script src="moment.min.js"></script>
     <script src="script.js"></script>
